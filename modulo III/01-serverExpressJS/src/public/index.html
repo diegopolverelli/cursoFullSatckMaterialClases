@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <h2>Home Page</h2>
+    <hr>
+    <p>Bienvenidos...!!!</p>
+    <img src="/img/heroes groot.jpg" alt="groot">
+
+    <form action="/recibefoto" method="post" enctype="multipart/form-data">
+        <div id="mensaje"></div>
+        <input type="file" name="foto" required />
+        <input type="text" name="name" required placeholder="Completa name">
+        <input type="text" name="web" value="1" hidden>
+        <br>
+        <input type="submit" value="Upload">
+    </form>
+
+    <script src="/js/index.js"></script>
+</body>
+
+</html>

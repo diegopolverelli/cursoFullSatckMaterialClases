@@ -1,0 +1,177 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.caja {
+    border: 2px solid red;
+    /* width: 50%; */
+    width: calc(50% - 6px);
+    height: 100px;
+    padding: 20px;
+    float: left;
+    margin: 3px;
+}
+
+header {
+    /* background-color: #FFF;
+    background-color: #FFFFFF;
+    background-color: rgb(70, 150, 230); */
+    background-color: #96c0f3;
+    padding: 40px;
+    color: #FFF;
+    text-align: center;
+}
+
+header img {
+    width: 100px;
+    border: 3px solid #000;
+    border-radius: 50%;
+    margin-top: 10px;
+    /* float: left;
+    margin-top: -90px; */
+}
+
+@media(min-width:830px) {
+    header img {
+        float: left;
+        margin-top: -90px;
+    }
+
+    /* nav a{
+        color: brown;
+    } */
+}
+
+
+nav {
+    /* border: 1px solid red; */
+    background-color: #c1d2e7;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    min-height: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+nav a {
+    margin-right: 20px;
+}
+
+aside {
+    /* border: 1px solid red; */
+    min-height: 350px;
+    /* float: right;
+    width: 29.5%; */
+    width: 100%;
+    background-color: #efc941;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+aside img {
+    /* width: 130px; */
+    width: 80%;
+    margin-top: 15px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+aside p {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+aside input {
+    width: 80%;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+section {
+    margin-top: 15px;
+    min-height: 370px;
+    /* width: 69.5%;
+    float: left; */
+    width: 100%;
+    /* border: 1px solid red; */
+    background-color: #96c0f3;
+    text-align: center;
+    padding-top: 50px;
+}
+
+section article {
+    margin: 0px auto;
+    /* border: 1px solid black; */
+    width: 80%;
+    min-height: 80px;
+    padding-top: 20px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+
+section article h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+
+@media(min-width:450px) {
+    section {
+        margin-top: 0px;
+        width: 69.5%;
+        float: left;
+    }
+
+    aside {
+        float: right;
+        width: 29.5%;
+    }
+}
+
+.clear-fix {
+    clear: both;
+}
+
+footer {
+    background-color: #c1d2e7;
+    padding: 20px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+/*
+esto es un comentario...!!
+no es considerado x el navegador
+
+*/
+
+/* p{
+    color: green;
+    font-weight: bolder;
+    background-color: pink;
+}
+
+a{
+    color: red;
+    margin-right: 20px;
+}
+
+#contenido2{
+    color: blue;
+    font-size: 30px;
+} */

@@ -1,0 +1,44 @@
+p{
+    color: red !important;
+}
+p{
+    color: blue !important;
+}
+/* div p{
+    color: green;
+} */
+
+div .clientes{
+    color: brown;
+    font-size: xx-large;
+}
+
+div > p{
+    color: purple;
+    font-weight: bolder;
+}
+
+ul li{
+    color: blue;
+}
+
+ul li:first-of-type{
+    color: greenyellow;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+ul li:last-of-type{
+    color: brown;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+ul li:nth-child(4){
+    color: blueviolet;
+    font-size: xx-large;
+    font-weight: bolder; 
+}
+
+
+

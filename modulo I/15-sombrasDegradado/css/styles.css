@@ -1,0 +1,81 @@
+:root{
+    --primary: #f68e1e;
+    --secondary: #01f1f2;
+    --colorLinkedIn: #0a66c2;
+}
+
+html {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-size: 62.5%;
+    /* 1rem = 10px*/
+}
+
+body {
+    font-size: 16px;
+    height: 900px;
+    /* background-image: linear-gradient(45deg, #348df2 20%, #f0e1e1 90%); */
+
+    /* background: rgb(245,16,71);
+    background: linear-gradient(0deg, rgba(245,16,71,1) 0%, rgba(230,250,248,1) 57%); */
+
+    /* background: rgb(245, 16, 71);
+    background: linear-gradient(0deg, rgba(245, 16, 71, 1) 0%, rgba(93, 187, 80, 1) 20%, rgba(134, 138, 237, 1) 42%, rgba(230, 250, 248, 1) 83%); */
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+h2 {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 11rem;
+    /* text-shadow: 1px 1px 1px rgba(0,0,0,0.75); */
+    text-shadow: 7px -5px 5px rgba(0,0,0,0.75);
+    color: var(--primary);
+}
+
+h3{
+    color: var(--secondary);
+    text-align: center;
+    font-size: 3rem;
+    background-color: #f68e1e;
+
+}
+
+h4{
+    display: inline-block;
+    margin-left: 2rem;
+    background-color: var(--colorLinkedIn);
+    color: white;
+    padding: 1rem;
+    border-radius: 5%;
+    font-size: 4rem;
+}
+
+
+.otro-gradiente {
+    margin: 0 auto;
+    width: 40rem;
+    height: 40rem;
+    background: rgb(230, 250, 248);
+    background: radial-gradient(circle, rgba(230, 250, 248, 1) 31%, rgba(245, 16, 71, 1) 93%);
+}
+
+.sombra{
+    width: 40rem;
+    height: 40rem;
+    background-color: green;
+    box-shadow: 25px -28px 43px -4px rgba(117,109,117,0.72);
+}
+
+.sombra2{
+    width: 40rem;
+    height: 40rem;
+    background-color: lightskyblue;
+    box-shadow: 10px 10px 16px 3px rgba(0,0,0,0.75);
+}

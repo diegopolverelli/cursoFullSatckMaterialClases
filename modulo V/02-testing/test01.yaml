@@ -1,0 +1,26 @@
+config:
+  target: 'http://localhost:3000' # default target
+  phases:
+    - arrivalRate: 10
+      rampTo: 15
+      duration: 10
+      name: fase 1
+    # - arrivalRate: 15
+    #   duration: 5
+scenarios:
+# scenario:
+  - name: Crea usuario
+    flow:
+      - get:
+          url: '/users'
+      - get:
+          url: '/mail'
+          capture:
+            - json: $.email
+              as: email
+      - post:
+          url: '/users'
+          json:
+            nombre: 'Juan'
+            email: '{{email}}'
+            password: '123'

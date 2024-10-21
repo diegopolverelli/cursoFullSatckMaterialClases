@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "descrip":"Programacion I",
+        "horas": 6,
+        "docente":"Martin Rios"
+    },
+    {
+        "id":2,
+        "descrip":"Programacion II",
+        "horas": 14,
+        "docente":"Martin Rios"
+    },
+    {
+        "id":3,
+        "descrip":"Base de Datos I",
+        "horas": 10,
+        "docente":"Jimena Roldan"
+    }
+]

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Peticiones AJAX</h2>
+    <hr>
+    <form action="https://reqres.in/api/users" method="post">
+        <input type="text" name="nombre" placeholder="ingrese nombre" id="nombre">
+        <input type="email" name="email" placeholder="correo electrónico" id="email">
+        <input type="submit" value="Registrar" id="btnRegristro">
+    </form>
+    <div id="mensaje"></div>
+
+    <!-- <script src="js/08-ajax.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/09-axios.js"></script>
+</body>
+</html>

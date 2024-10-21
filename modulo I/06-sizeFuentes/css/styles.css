@@ -1,0 +1,30 @@
+html{
+    font-size: 62.5%;  /* 1rem = 10px*/
+}
+
+body{
+    font-size: 16px;
+}
+
+p{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+div{
+    background-color: #999;
+    width: 60rem;
+    height: 30rem;
+    font-size: 10px;
+}
+
+h3{
+    font-size: 32px;
+}
+
+h4{
+    font-size: 3rem;
+}

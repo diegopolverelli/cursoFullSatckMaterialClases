@@ -1,0 +1,33 @@
+:root{
+    --blanco: #FFFFFF;
+    --negro: #000000;
+    --primary: #13c7dc;
+    --secondary: #aab61d;
+    --fuente: Arial;
+    --size: 30px;
+}
+
+.titulo{
+    /* color: rgb(57, 109, 94);
+     */
+     /* color: hsl(240, 57%, 53%); */
+
+     /* color: rgba(30, 50, 90, 0.233); */
+     /* color: #24da15; */
+     color: var(--primary);
+     font-size: var(--size);
+}
+
+.subtitulo{
+    color: var(--secondary);
+}
+
+p{
+    color: var(--primary);
+    font-family: var(--fuente);
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+p span{
+    font-size: var(--size);
+}

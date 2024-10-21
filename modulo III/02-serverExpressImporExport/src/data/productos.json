@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "descrip": "Martillo",
+        "precio": 4870,
+        "stock": 4
+    },
+    {
+        "id":2,
+        "descrip": "Destornillador",
+        "precio": 3900,
+        "stock": 19
+    },
+    {
+        "id":3,
+        "descrip": "Pincel",
+        "precio": 2400,
+        "stock": 10
+    }
+]
